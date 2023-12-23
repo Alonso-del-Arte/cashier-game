@@ -18,6 +18,8 @@
 		6108F8672B368878009885E3 /* CashierGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8662B368878009885E3 /* CashierGameTests.swift */; };
 		6108F8712B368878009885E3 /* CashierGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8702B368878009885E3 /* CashierGameUITests.swift */; };
 		6108F8732B368878009885E3 /* CashierGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */; };
+		6108F8802B36890A009885E3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6108F87F2B36890A009885E3 /* .gitignore */; };
+		6108F8822B368A2A009885E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8812B368A2A009885E3 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		6108F86C2B368878009885E3 /* CashierGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashierGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6108F8702B368878009885E3 /* CashierGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierGameUITests.swift; sourceTree = "<group>"; };
 		6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6108F87F2B36890A009885E3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6108F8812B368A2A009885E3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6108F8832B368A67009885E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		6108F8402B368877009885E3 = {
 			isa = PBXGroup;
 			children = (
+				6108F8832B368A67009885E3 /* README.md */,
+				6108F8812B368A2A009885E3 /* LICENSE */,
+				6108F87F2B36890A009885E3 /* .gitignore */,
 				6108F84B2B368877009885E3 /* CashierGame */,
 				6108F8652B368878009885E3 /* CashierGameTests */,
 				6108F86F2B368878009885E3 /* CashierGameUITests */,
@@ -238,7 +246,9 @@
 				6108F8582B368877009885E3 /* Main.storyboard in Resources */,
 				6108F84F2B368877009885E3 /* GameScene.sks in Resources */,
 				6108F85A2B368878009885E3 /* Assets.xcassets in Resources */,
+				6108F8822B368A2A009885E3 /* LICENSE in Resources */,
 				6108F85D2B368878009885E3 /* LaunchScreen.storyboard in Resources */,
+				6108F8802B36890A009885E3 /* .gitignore in Resources */,
 				6108F8512B368877009885E3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
