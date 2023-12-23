@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6108F84D2B368877009885E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F84C2B368877009885E3 /* AppDelegate.swift */; };
+		6108F84F2B368877009885E3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6108F84E2B368877009885E3 /* GameScene.sks */; };
+		6108F8512B368877009885E3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8502B368877009885E3 /* Actions.sks */; };
+		6108F8532B368877009885E3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8522B368877009885E3 /* GameScene.swift */; };
+		6108F8552B368877009885E3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8542B368877009885E3 /* GameViewController.swift */; };
+		6108F8582B368877009885E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8562B368877009885E3 /* Main.storyboard */; };
+		6108F85A2B368878009885E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8592B368878009885E3 /* Assets.xcassets */; };
+		6108F85D2B368878009885E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108F85B2B368878009885E3 /* LaunchScreen.storyboard */; };
+		6108F8672B368878009885E3 /* CashierGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8662B368878009885E3 /* CashierGameTests.swift */; };
+		6108F8712B368878009885E3 /* CashierGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8702B368878009885E3 /* CashierGameUITests.swift */; };
+		6108F8732B368878009885E3 /* CashierGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6108F8632B368878009885E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6108F8412B368877009885E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6108F8482B368877009885E3;
+			remoteInfo = CashierGame;
+		};
+		6108F86D2B368878009885E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6108F8412B368877009885E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6108F8482B368877009885E3;
+			remoteInfo = CashierGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6108F8492B368877009885E3 /* CashierGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashierGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6108F84C2B368877009885E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6108F84E2B368877009885E3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6108F8502B368877009885E3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		6108F8522B368877009885E3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6108F8542B368877009885E3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6108F8572B368877009885E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6108F8592B368878009885E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6108F85C2B368878009885E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6108F8622B368878009885E3 /* CashierGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashierGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6108F8662B368878009885E3 /* CashierGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierGameTests.swift; sourceTree = "<group>"; };
+		6108F86C2B368878009885E3 /* CashierGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashierGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6108F8702B368878009885E3 /* CashierGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierGameUITests.swift; sourceTree = "<group>"; };
+		6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6108F8462B368877009885E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F85F2B368878009885E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F8692B368878009885E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6108F8402B368877009885E3 = {
+			isa = PBXGroup;
+			children = (
+				6108F84B2B368877009885E3 /* CashierGame */,
+				6108F8652B368878009885E3 /* CashierGameTests */,
+				6108F86F2B368878009885E3 /* CashierGameUITests */,
+				6108F84A2B368877009885E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6108F84A2B368877009885E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6108F8492B368877009885E3 /* CashierGame.app */,
+				6108F8622B368878009885E3 /* CashierGameTests.xctest */,
+				6108F86C2B368878009885E3 /* CashierGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6108F84B2B368877009885E3 /* CashierGame */ = {
+			isa = PBXGroup;
+			children = (
+				6108F84C2B368877009885E3 /* AppDelegate.swift */,
+				6108F84E2B368877009885E3 /* GameScene.sks */,
+				6108F8502B368877009885E3 /* Actions.sks */,
+				6108F8522B368877009885E3 /* GameScene.swift */,
+				6108F8542B368877009885E3 /* GameViewController.swift */,
+				6108F8562B368877009885E3 /* Main.storyboard */,
+				6108F8592B368878009885E3 /* Assets.xcassets */,
+				6108F85B2B368878009885E3 /* LaunchScreen.storyboard */,
+			);
+			path = CashierGame;
+			sourceTree = "<group>";
+		};
+		6108F8652B368878009885E3 /* CashierGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6108F8662B368878009885E3 /* CashierGameTests.swift */,
+			);
+			path = CashierGameTests;
+			sourceTree = "<group>";
+		};
+		6108F86F2B368878009885E3 /* CashierGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6108F8702B368878009885E3 /* CashierGameUITests.swift */,
+				6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */,
+			);
+			path = CashierGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6108F8482B368877009885E3 /* CashierGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6108F8762B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGame" */;
+			buildPhases = (
+				6108F8452B368877009885E3 /* Sources */,
+				6108F8462B368877009885E3 /* Frameworks */,
+				6108F8472B368877009885E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashierGame;
+			productName = CashierGame;
+			productReference = 6108F8492B368877009885E3 /* CashierGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6108F8612B368878009885E3 /* CashierGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6108F8792B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGameTests" */;
+			buildPhases = (
+				6108F85E2B368878009885E3 /* Sources */,
+				6108F85F2B368878009885E3 /* Frameworks */,
+				6108F8602B368878009885E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6108F8642B368878009885E3 /* PBXTargetDependency */,
+			);
+			name = CashierGameTests;
+			productName = CashierGameTests;
+			productReference = 6108F8622B368878009885E3 /* CashierGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6108F86B2B368878009885E3 /* CashierGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6108F87C2B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGameUITests" */;
+			buildPhases = (
+				6108F8682B368878009885E3 /* Sources */,
+				6108F8692B368878009885E3 /* Frameworks */,
+				6108F86A2B368878009885E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6108F86E2B368878009885E3 /* PBXTargetDependency */,
+			);
+			name = CashierGameUITests;
+			productName = CashierGameUITests;
+			productReference = 6108F86C2B368878009885E3 /* CashierGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6108F8412B368877009885E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6108F8482B368877009885E3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					6108F8612B368878009885E3 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6108F8482B368877009885E3;
+					};
+					6108F86B2B368878009885E3 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6108F8482B368877009885E3;
+					};
+				};
+			};
+			buildConfigurationList = 6108F8442B368877009885E3 /* Build configuration list for PBXProject "CashierGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6108F8402B368877009885E3;
+			productRefGroup = 6108F84A2B368877009885E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6108F8482B368877009885E3 /* CashierGame */,
+				6108F8612B368878009885E3 /* CashierGameTests */,
+				6108F86B2B368878009885E3 /* CashierGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6108F8472B368877009885E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6108F8582B368877009885E3 /* Main.storyboard in Resources */,
+				6108F84F2B368877009885E3 /* GameScene.sks in Resources */,
+				6108F85A2B368878009885E3 /* Assets.xcassets in Resources */,
+				6108F85D2B368878009885E3 /* LaunchScreen.storyboard in Resources */,
+				6108F8512B368877009885E3 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F8602B368878009885E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F86A2B368878009885E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6108F8452B368877009885E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6108F8532B368877009885E3 /* GameScene.swift in Sources */,
+				6108F8552B368877009885E3 /* GameViewController.swift in Sources */,
+				6108F84D2B368877009885E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F85E2B368878009885E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6108F8672B368878009885E3 /* CashierGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108F8682B368878009885E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6108F8732B368878009885E3 /* CashierGameUITestsLaunchTests.swift in Sources */,
+				6108F8712B368878009885E3 /* CashierGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6108F8642B368878009885E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6108F8482B368877009885E3 /* CashierGame */;
+			targetProxy = 6108F8632B368878009885E3 /* PBXContainerItemProxy */;
+		};
+		6108F86E2B368878009885E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6108F8482B368877009885E3 /* CashierGame */;
+			targetProxy = 6108F86D2B368878009885E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6108F8562B368877009885E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6108F8572B368877009885E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6108F85B2B368878009885E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6108F85C2B368878009885E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6108F8742B368878009885E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6108F8752B368878009885E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6108F8772B368878009885E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6108F8782B368878009885E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6108F87A2B368878009885E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashierGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashierGame";
+			};
+			name = Debug;
+		};
+		6108F87B2B368878009885E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashierGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashierGame";
+			};
+			name = Release;
+		};
+		6108F87D2B368878009885E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashierGame;
+			};
+			name = Debug;
+		};
+		6108F87E2B368878009885E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashierGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6108F8442B368877009885E3 /* Build configuration list for PBXProject "CashierGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6108F8742B368878009885E3 /* Debug */,
+				6108F8752B368878009885E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6108F8762B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6108F8772B368878009885E3 /* Debug */,
+				6108F8782B368878009885E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6108F8792B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6108F87A2B368878009885E3 /* Debug */,
+				6108F87B2B368878009885E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6108F87C2B368878009885E3 /* Build configuration list for PBXNativeTarget "CashierGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6108F87D2B368878009885E3 /* Debug */,
+				6108F87E2B368878009885E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6108F8412B368877009885E3 /* Project object */;
+}
