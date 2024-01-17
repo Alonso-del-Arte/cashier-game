@@ -9,11 +9,10 @@ import Foundation
 
 struct Currency {
     
-    // TODO: Write tests for this
-    let locale: Locale = Locale(identifier: "zh-CN")
+    let locale: Locale
     
     init(_ loc: Locale) {
-        //
+        self.locale = loc
     }
     
 }
