@@ -20,6 +20,9 @@
 		6108F8732B368878009885E3 /* CashierGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */; };
 		6108F8802B36890A009885E3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6108F87F2B36890A009885E3 /* .gitignore */; };
 		6108F8822B368A2A009885E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8812B368A2A009885E3 /* LICENSE */; };
+		617986042B5874AB00AF5A23 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617986032B5874AB00AF5A23 /* Currency.swift */; };
+		6179860F2B5874C100AF5A23 /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179860E2B5874C100AF5A23 /* CurrencyTests.swift */; };
+		617986152B58794A00AF5A23 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617986032B5874AB00AF5A23 /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,26 @@
 			remoteGlobalIDString = 6108F8482B368877009885E3;
 			remoteInfo = CashierGame;
 		};
+		617986102B5874C100AF5A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6108F8412B368877009885E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6108F8482B368877009885E3;
+			remoteInfo = CashierGame;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		617985FF2B5874AB00AF5A23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6108F8492B368877009885E3 /* CashierGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashierGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +79,10 @@
 		6108F87F2B36890A009885E3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6108F8812B368A2A009885E3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6108F8832B368A67009885E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		617986012B5874AB00AF5A23 /* libMoney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoney.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		617986032B5874AB00AF5A23 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		6179860C2B5874C100AF5A23 /* MoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6179860E2B5874C100AF5A23 /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +107,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		617985FE2B5874AB00AF5A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617986092B5874C100AF5A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +133,8 @@
 				6108F84B2B368877009885E3 /* CashierGame */,
 				6108F8652B368878009885E3 /* CashierGameTests */,
 				6108F86F2B368878009885E3 /* CashierGameUITests */,
+				617986022B5874AB00AF5A23 /* Money */,
+				6179860D2B5874C100AF5A23 /* MoneyTests */,
 				6108F84A2B368877009885E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +145,8 @@
 				6108F8492B368877009885E3 /* CashierGame.app */,
 				6108F8622B368878009885E3 /* CashierGameTests.xctest */,
 				6108F86C2B368878009885E3 /* CashierGameUITests.xctest */,
+				617986012B5874AB00AF5A23 /* libMoney.a */,
+				6179860C2B5874C100AF5A23 /* MoneyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +181,22 @@
 				6108F8722B368878009885E3 /* CashierGameUITestsLaunchTests.swift */,
 			);
 			path = CashierGameUITests;
+			sourceTree = "<group>";
+		};
+		617986022B5874AB00AF5A23 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				617986032B5874AB00AF5A23 /* Currency.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		6179860D2B5874C100AF5A23 /* MoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6179860E2B5874C100AF5A23 /* CurrencyTests.swift */,
+			);
+			path = MoneyTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +255,41 @@
 			productReference = 6108F86C2B368878009885E3 /* CashierGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		617986002B5874AB00AF5A23 /* Money */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617986052B5874AB00AF5A23 /* Build configuration list for PBXNativeTarget "Money" */;
+			buildPhases = (
+				617985FD2B5874AB00AF5A23 /* Sources */,
+				617985FE2B5874AB00AF5A23 /* Frameworks */,
+				617985FF2B5874AB00AF5A23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Money;
+			productName = Money;
+			productReference = 617986012B5874AB00AF5A23 /* libMoney.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6179860B2B5874C100AF5A23 /* MoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617986122B5874C100AF5A23 /* Build configuration list for PBXNativeTarget "MoneyTests" */;
+			buildPhases = (
+				617986082B5874C100AF5A23 /* Sources */,
+				617986092B5874C100AF5A23 /* Frameworks */,
+				6179860A2B5874C100AF5A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617986112B5874C100AF5A23 /* PBXTargetDependency */,
+			);
+			name = MoneyTests;
+			productName = MoneyTests;
+			productReference = 6179860C2B5874C100AF5A23 /* MoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,7 +297,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					6108F8482B368877009885E3 = {
@@ -214,6 +309,13 @@
 					};
 					6108F86B2B368878009885E3 = {
 						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6108F8482B368877009885E3;
+					};
+					617986002B5874AB00AF5A23 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6179860B2B5874C100AF5A23 = {
+						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 6108F8482B368877009885E3;
 					};
 				};
@@ -234,6 +336,8 @@
 				6108F8482B368877009885E3 /* CashierGame */,
 				6108F8612B368878009885E3 /* CashierGameTests */,
 				6108F86B2B368878009885E3 /* CashierGameUITests */,
+				617986002B5874AB00AF5A23 /* Money */,
+				6179860B2B5874C100AF5A23 /* MoneyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +365,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6108F86A2B368878009885E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6179860A2B5874C100AF5A23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,6 +408,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		617985FD2B5874AB00AF5A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617986042B5874AB00AF5A23 /* Currency.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617986082B5874C100AF5A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617986152B58794A00AF5A23 /* Currency.swift in Sources */,
+				6179860F2B5874C100AF5A23 /* CurrencyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -309,6 +437,11 @@
 			isa = PBXTargetDependency;
 			target = 6108F8482B368877009885E3 /* CashierGame */;
 			targetProxy = 6108F86D2B368878009885E3 /* PBXContainerItemProxy */;
+		};
+		617986112B5874C100AF5A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6108F8482B368877009885E3 /* CashierGame */;
+			targetProxy = 617986102B5874C100AF5A23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -577,6 +710,64 @@
 			};
 			name = Release;
 		};
+		617986062B5874AB00AF5A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617986072B5874AB00AF5A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		617986132B5874C100AF5A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashierGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashierGame";
+			};
+			name = Debug;
+		};
+		617986142B5874C100AF5A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashierGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashierGame";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +803,24 @@
 			buildConfigurations = (
 				6108F87D2B368878009885E3 /* Debug */,
 				6108F87E2B368878009885E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617986052B5874AB00AF5A23 /* Build configuration list for PBXNativeTarget "Money" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617986062B5874AB00AF5A23 /* Debug */,
+				617986072B5874AB00AF5A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617986122B5874C100AF5A23 /* Build configuration list for PBXNativeTarget "MoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617986132B5874C100AF5A23 /* Debug */,
+				617986142B5874C100AF5A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
