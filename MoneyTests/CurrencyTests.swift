@@ -42,6 +42,13 @@ final class CurrencyTests: XCTestCase {
         let actual = currency.subunitDenominator
         XCTAssertEqual(expected, actual)
     }
+    
+    func testSymbolUSD() {
+        let currency = Currency(americanLocale)
+        let expected = "$"
+        let actual = currency.symbol
+        XCTAssertEqual(expected, actual)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
