@@ -18,7 +18,7 @@ struct Currency {
     let subunitDenominator: Int = 100
     
     // TODO: Write tests for this
-    let displayName: String = "SORRY, NOT IMPLEMENTED YET"
+    let displayName: String = "United States dollar"
     
     // TODO: Write tests for this
     func displayName(loc: Locale) -> String {
