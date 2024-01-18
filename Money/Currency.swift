@@ -15,7 +15,7 @@ struct Currency {
     let currencyCode: String = "USD"
     
     // TODO: Write tests for this
-    let subunitDenominator: Int = -1
+    let subunitDenominator: Int = 100
     
     // TODO: Write tests for this
     let displayName: String = "SORRY, NOT IMPLEMENTED YET"
