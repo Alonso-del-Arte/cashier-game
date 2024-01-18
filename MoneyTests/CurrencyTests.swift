@@ -43,6 +43,13 @@ final class CurrencyTests: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
     
+    func testDisplayNameUSD() {
+        let currency = Currency(americanLocale)
+        let expected = "United States dollar"
+        let actual = currency.displayName
+        XCTAssertEqual(expected, actual)
+    }
+    
     func testSymbolUSD() {
         let currency = Currency(americanLocale)
         let expected = "$"
