@@ -12,7 +12,7 @@ struct Currency {
     let locale: Locale
     
     // TODO: Write tests for this
-    let currencyCode: String = "SORRY"
+    let currencyCode: String = "USD"
     
     // TODO: Write tests for this
     let subunitDenominator: Int = -1
