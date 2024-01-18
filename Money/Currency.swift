@@ -26,7 +26,7 @@ struct Currency {
     }
     
     // TODO: Write tests for this
-    let symbol: String = "???"
+    let symbol: String = "$"
     
     // TODO: Write tests for this
     func symbol(loc: Locale) -> String {
