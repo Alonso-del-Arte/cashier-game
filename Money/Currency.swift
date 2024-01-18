@@ -11,6 +11,28 @@ struct Currency {
     
     let locale: Locale
     
+    // TODO: Write tests for this
+    let currencyCode: String = "SORRY"
+    
+    // TODO: Write tests for this
+    let subunitDenominator: Int = -1
+    
+    // TODO: Write tests for this
+    let displayName: String = "SORRY, NOT IMPLEMENTED YET"
+    
+    // TODO: Write tests for this
+    func displayName(loc: Locale) -> String {
+        self.displayName
+    }
+    
+    // TODO: Write tests for this
+    let symbol: String = "???"
+    
+    // TODO: Write tests for this
+    func symbol(loc: Locale) -> String {
+        self.symbol
+    }
+    
     init(_ loc: Locale) {
         self.locale = loc
     }
